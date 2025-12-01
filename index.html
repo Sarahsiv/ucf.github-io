@@ -1,37 +1,41 @@
 <!DOCTYPE html>
-body {
-    font-family: Arial, sans-serif;
-    background-color: #fafafa;
-    margin: 40px;
-}
-
-h1 {
-    color: #0066cc;
-}
-
-video {
-    border: 4px solid #333;
-    border-radius: 10px;
-}
-
 <html>
 <head>
     <meta charset="UTF-8">
     <title>My GitHub Site</title>
 
-    <!-- Optional: Override Jekyll theme with your own CSS -->
+    <!-- Optional custom styling -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1>Welcome to My Site</h1>
 
-    <p>This is my first GitHub Pages HTML page.</p>
+    <p>This is my GitHub Pages website where I’m hosting my video and code files.</p>
 
-    <h2>My Video:</h2>
+    <!-- --------------------------- -->
+    <!--       VIDEO SECTION         -->
+    <!-- --------------------------- -->
+
+    <h2>My Video</h2>
     <video width="600" controls>
         <source src="my-video.mp4" type="video/mp4">
-      
+        Your browser does not support the video tag.
     </video>
+
+    <br><br>
+
+    <!-- --------------------------- -->
+    <!--     DOWNLOAD CODE LINK      -->
+    <!-- --------------------------- -->
+
+    <h2>Download My Code</h2>
+    <p>
+        <a href="https://raw.githubusercontent.com/SarahSiv/ucf.github.io/main/main.c" 
+           download>
+            👉 Click here to download main.c
+        </a>
+    </p>
+
 </body>
 </html>
